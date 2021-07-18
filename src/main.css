@@ -213,3 +213,8 @@
 .span--footer {
   margin: 0 .3rem;
 }
+@media screen and (max-width: 450px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
