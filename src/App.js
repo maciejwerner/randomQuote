@@ -19,7 +19,6 @@ const render = async () => {
 
   header.innerHTML =  await Header.render();
   await Header.after_render();
-  // await Header.rerender();
 
   main.innerHTML =  await Main.render();
   await Main.after_render();

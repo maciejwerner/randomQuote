@@ -36,4 +36,4 @@ export const authorData = async (author) => {
 
 export const reloadPage = () => {
   window.location.reload();
-}
+};
