@@ -28,6 +28,8 @@ const Header = {
       if (darkMode !== "enabled") darkModeEnable();
       else darkModeDisable();
     });  
+
+    document.querySelector('.button--random').addEventListener('click', reloadPage);
   },
 
   render : () => {

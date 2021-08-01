@@ -17,13 +17,13 @@ const render = async () => {
   body.appendChild(main);
   body.appendChild(footer);
 
-  header.innerHTML =  await Header.render();
-  await Header.after_render();
+  header.innerHTML = Header.render();
+  Header.after_render();
 
-  main.innerHTML =  await Main.render();
-  await Main.after_render();
+  main.innerHTML = await Main.render();
+  Main.after_render();
   
-  footer.innerHTML =  Footer.render();
+  footer.innerHTML = Footer.render();
 
 };
 window.addEventListener('load', render);
